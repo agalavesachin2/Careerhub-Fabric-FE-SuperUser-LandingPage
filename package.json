@@ -1,0 +1,48 @@
+{
+  "name": "superuserlandingapp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host ",
+    "localBuild": "arx dev src/superuserlandingApp.tsx",
+    "build": "esbuild src/superuserlandingApp.tsx --bundle --loader:.gif=dataurl --loader:.svg=dataurl --loader:.woff=dataurl --loader:.ttf=dataurl --loader:.eot=dataurl --minify --sourcemap --outfile=assets/superuserlandingapp.js --target=safari11 --watch",
+    "minify-css": "postcss src/superuserlanding.css -o assets/superuserlanding.css",
+    "build2": "",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fluentui/react": "^8.94.4",
+    "@fluentui/react-hooks": "^8.6.11",
+    "@fluentui/react-icons": "^2.0.224",
+    "@types/node": "^18.7.18",
+    "@types/react-slick": "^0.23.13",
+    "arx-cli": "^0.0.7",
+    "dayjs": "^1.11.5",
+    "esbuild": "^0.15.8",
+    "lucide-react": "^0.482.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scroll": "^1.9.3",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.10",
+    "@types/react-scroll": "^1.8.10",
+    "@vitejs/plugin-react": "^2.1.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "concurrently": "^7.6.0",
+    "cssnano": "^7.0.6",
+    "html-webpack-plugin": "^5.6.3",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.0",
+    "ts-loader": "^9.5.2",
+    "typescript": "^4.9.5",
+    "vite": "^3.2.7",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}

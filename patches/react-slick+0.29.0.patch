@@ -1,0 +1,32 @@
+diff --git a/node_modules/react-slick/lib/arrows.js b/node_modules/react-slick/lib/arrows.js
+index de3831e..b866c22 100644
+--- a/node_modules/react-slick/lib/arrows.js
++++ b/node_modules/react-slick/lib/arrows.js
+@@ -86,8 +86,13 @@ var PrevArrow = /*#__PURE__*/function (_React$PureComponent) {
+         style: {
+           display: "block"
+         },
+-        onClick: prevHandler
++        onClick: prevHandler,
++        title: "Previous",
++        "data-bi-id":"careerhub_opportunityto_yourcareer_videoarrow_left",
++        "data-bi-name":"Bringing Opportunity to your career arrow left",
++        "data-bi-area":"Bringing Opportunity to your career"
+       };
++      
+       var customProps = {
+         currentSlide: this.props.currentSlide,
+         slideCount: this.props.slideCount
+@@ -155,7 +160,11 @@ var NextArrow = /*#__PURE__*/function (_React$PureComponent2) {
+         style: {
+           display: "block"
+         },
+-        onClick: nextHandler
++        onClick: nextHandler,
++        title: "Next",
++        "data-bi-id":"careerhub_opportunityto_yourcareer_videoarrow_right",
++        "data-bi-name":"Bringing Opportunity to your career arrow right",
++        "data-bi-area":"Bringing Opportunity to your career"
+       };
+       var customProps = {
+         currentSlide: this.props.currentSlide,

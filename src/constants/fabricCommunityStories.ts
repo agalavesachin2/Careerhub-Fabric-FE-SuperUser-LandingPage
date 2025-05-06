@@ -14,7 +14,7 @@ export const FabricCommunityStories = {
     {
       key: "step-2",
       img: "/html/assets/superUser_lutzNew.png",
-      title: "Lutz Bedndlin",
+      title: "Lutz Bendlin",
       description: "Business Intelligence Analyst, HPE",
       quote:
         "“I am learning something new every day…Being a Super User is the best balance between receiving and giving - and it guarantees that you stay current in the ever-changing world of Fabric features.”",

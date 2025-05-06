@@ -293,14 +293,6 @@
     padding-left: 409px !important;
   }
 
-  /* .fabric-stories__title {
-    font-size: 18px !important;
-    line-height: 24px !important;
-    padding-bottom: 16px !important;
-    text-align: center !important;
-    padding-right: 472px !important;
-  } */
-
   .fabric-stories__quote {
     font-family: Segoe UI !important;
     font-size: 24px !important;
@@ -1398,7 +1390,7 @@
         }
     
         .faq-answer {
-            font-size: 12px;
+            font-size: 12px !important;
         }
 }
 

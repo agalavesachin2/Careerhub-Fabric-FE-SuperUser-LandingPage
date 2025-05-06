@@ -2,7 +2,7 @@
   <meta name="description" content="Take part in our community contests and show off your skills. Whether you're a pro or a beginner, there's a contest for everyone." />
   
   <!-- Updated Favicon (initial, may be overridden by Lithium) -->
-  <link rel="icon" type="image/svg+xml" href="${asset.get('/html/assets/favicon.svg')}" />
+  <link rel="icon" type="image/svg+xml" href="${asset.get('/html/assets/favicon_superuser.svg')}" />
 
   <style>
     html {

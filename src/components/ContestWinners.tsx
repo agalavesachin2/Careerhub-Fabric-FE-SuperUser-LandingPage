@@ -9,13 +9,23 @@ function ContestWinners({ CustomCardData }: { CustomCardData: any }) {
   const { SUStepsHeading, SUStepsSubHeading, steps } = CustomCardData;
 
   const handleScrollClick = () => {
+    const width = window.innerWidth;
+    let offset = -430; // default for desktop
+  
+    if (width <= 768) {
+      offset = -180; // true mobile phones
+    } else if (width <= 1024) {
+      offset = -300; // small tablets/laptops
+    }
+  
     scroller.scrollTo('ProductForms', {
       duration: 800,
       delay: 0,
       smooth: 'easeInOutQuart',
-      offset: -100,
+      offset,
     });
   };
+  
 
   const renderWinnerCard = (winner: any) => {
     const isScrollCard = winner.key === 'step-4';

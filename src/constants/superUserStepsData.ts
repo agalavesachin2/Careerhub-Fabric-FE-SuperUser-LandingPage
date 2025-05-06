@@ -19,7 +19,7 @@ export const SuperUserStepsData = {
         img: "/html/assets/SuperUserCard3.png",
         title: "Write blog posts",
         description:
-          "Share your insights and experiences through informative and inspiring blog entries",
+          "Share your insights and experiences through informative and inspiring blog entries.",
         btnLink: "https://community.fabric.microsoft.com/t5/Fabric-community-blogs/ct-p/fabricblogs",
         btnText: "Write a blog post",
       },

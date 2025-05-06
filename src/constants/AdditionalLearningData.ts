@@ -6,7 +6,7 @@ export const additionalLearningData = {
       {
         question: "What is the Super User Program? ",
         answer:
-          "As the name suggests, Super Users are the standout members of our Fabric community. They are active, helpful community members who respond with quality, well thought out solutions in forums, write informative blogs that address current topics that might affect Fabric users, and contribute quality gallery posts that show expertise.  These users receive a distinctive community badge and are invited to exclusive monthly Super User meetings with community leaders and product teams. Super Users gain access to private areas of our community and get early previews of upcoming community and product features. Additionally, Super Users can be nominated for consideration to the <a href='https://mvp.microsoft.com/en-us/' rel='noopener noreferrer'>Microsoft Most Valuable Professional (MVP)</a> title."
+          "As the name suggests, Super Users are the standout members of our Fabric community. They are active, helpful community members who respond with quality, well thought out solutions in forums, write informative blogs that address current topics that might affect Fabric users, and contribute quality gallery posts that show expertise.  These users receive a distinctive community badge and are invited to exclusive monthly Super User meetings with community leaders and product teams. Super Users gain access to private areas of our community and get early previews of upcoming community and product features. Additionally, Super Users can be nominated for consideration to the <a href='https://mvp.microsoft.com/en-us/' target='_blank' rel='noopener noreferrer'>Microsoft Most Valuable Professional (MVP)</a> title."
       },
       {
         question: "How long is the commitment?",
@@ -46,7 +46,7 @@ export const additionalLearningData = {
       {
         question: "If I become a Super User am I more likely to be nominated to be a MVP?",
         answer:
-          "Participation on the Fabric Community Platform is considered a community contribution and can be considered for as part of an <a href='https://mvp.microsoft.com/en-us/' rel='noopener noreferrer'>Microsoft Most Valuable Professional (MVP)</a>."
+          "Participation on the Fabric Community Platform is considered a community contribution and can be considered for as part of an <a href='https://mvp.microsoft.com/en-us/' target='_blank' rel='noopener noreferrer'>Microsoft Most Valuable Professional (MVP)</a>."
       }
     ]
   };

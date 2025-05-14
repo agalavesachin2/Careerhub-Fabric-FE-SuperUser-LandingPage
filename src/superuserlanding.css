@@ -37,6 +37,7 @@
         text-align: center;
         margin: 0;
         padding-top: 8px;
+        color: #3B3A39;
     }
   
     .tagsContainer {
@@ -52,10 +53,10 @@
       background-color: white;
       border-radius: 16px;
       border: 1px solid #8C8279;
-      padding: 4px 25px;
-      font-size: 12px;
+      padding: 4px 17px;
+      font-size: 14px;
       cursor: pointer;
-      color:#000;
+      color:#323130;
     }
 
     .product-forums .tagsContainer a.tag {
@@ -459,6 +460,7 @@
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0%;
+  color: #323130;
 }
 
 /*User stories Section */
@@ -839,7 +841,7 @@
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0px;
-    color: #000000;
+    color: #323130;
     padding-bottom: 8px;
 }
 
@@ -853,6 +855,9 @@
     /* padding-bottom: 24px; */
     gap: 8px;
     width: 100%;
+    color: #323130;
+    font-size: 14px;
+
 }
 
 .contest-winners-section .heading {
@@ -861,7 +866,7 @@
     font-weight: 600;
     font-size: 24px;
     line-height: 32px;
-    color: #000000;
+    color: #323130;
     padding-bottom: 8px;
 }
 
@@ -941,6 +946,11 @@
     gap: 12px;
     width: 249px;
     height: 150px;
+
+    .p {
+      font-size: 14px;
+      color: #3b3a39;
+    }
 }
 
 /* =============================
@@ -1078,7 +1088,7 @@
     gap: 0px !important;
     max-width: 1120px;
     width: 100%;
-    padding-bottom: 64px;
+    /* padding-bottom: 64px; */
   }
   
   .fabric-stories__card {
@@ -1141,9 +1151,9 @@
   .fabric-stories__role {
     font-family: 'Segoe UI', sans-serif;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 12px !important;
     line-height: 16px;
-    color: #333333;
+    color: #333333 !important;
     width: 225px;
   }
 /*end*/  
@@ -1181,9 +1191,9 @@
         width: 100%;
 
         h2 {
-            font-size: 28px;
-            font-weight: bold;
-            color: #333;
+          color: #323130;
+          font-size: 24px;
+          font-weight: 700;
         }
 
         p {
@@ -1235,6 +1245,7 @@
             line-height: 20px;
             letter-spacing: 0%;
             vertical-align: middle;
+            color: #292929;
         
             svg {                             
                 width: 24px;
@@ -1258,6 +1269,7 @@
             font-weight: 400;
             letter-spacing: 0;
             line-height: 20px;
+            color: #292929;
         }
 
         /* .faq-answer a {
@@ -1445,7 +1457,7 @@
         .faq-section {
           & .faq-buttons {
               button {
-                padding: 4px 47px !important;
+                padding: 6px 12px !important;
               }
             }
           }

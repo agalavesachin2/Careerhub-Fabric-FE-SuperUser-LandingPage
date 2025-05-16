@@ -43,12 +43,9 @@ const FabricCommunityStories: React.FC<FabricCommunityStoriesProps> = ({ stories
                   <div className="fabric-stories__name" style={{ fontWeight: "bold" }}>{step.title}</div>
                   <div className="fabric-stories__role" style={{ fontSize: "0.9rem", color: "#555" }}>{step.description}</div>
                 </div>
-                <div
-                  className="fabric-stories__avatar"
-                  style={{
-                    backgroundImage: `url(${step.img})`,
-                  }}
-                />
+                <div>
+                  <img src={step.img} alt="User avatar" className="fabric-stories__avatar" />
+                </div>
               </div>
             </div>
           ))}

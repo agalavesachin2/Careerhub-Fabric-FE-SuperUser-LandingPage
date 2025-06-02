@@ -25,12 +25,11 @@ const FabricCommunityStories: React.FC<FabricCommunityStoriesProps> = ({ stories
   return (
     
     <section className="fabric-stories">
-        <div className="fabric-stories__header">
         <div id="Userstories">
           <h2 className="fabric-stories__title">{storiesData.SUStepsHeading}</h2>
           <p className="fabric-stories__quote">{selectedQuote}</p>
         </div>
-
+      <div className="fabric-stories__header">
         <div className="fabric-stories__cards" style={{ display: "flex" }}>
           {storiesData.steps.map((step) => (
             <div

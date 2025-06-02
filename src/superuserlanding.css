@@ -176,7 +176,6 @@
     max-width: 100%;
     padding: 0px 232px;
     padding: 0 300px;
-    text-align: center;
   }
 
   .fabric-stories__cards {
@@ -260,6 +259,16 @@
 }
 
 @media (max-width: 320px) {
+
+.fabric-stories__title {
+    display: block;
+    max-width: 199px;
+    margin: 0 auto !important;
+    text-align: center;
+    white-space: normal;
+    word-break: break-word;
+  }
+
   .what-is-super-user-section {
     .tabs-container {
       padding: 8px 20px 120px !important;
@@ -313,7 +322,10 @@
   }
 
   .fabric-stories__header {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 250px;
     padding-bottom: 20px;
   }
 
@@ -498,6 +510,10 @@
   align-items: center;
   gap: 40px;
   padding-bottom: 24px;
+}
+
+.superuser-section-wrapper .subheading {
+  margin: auto !important;
 }
 
 /*Fabric Super User Section*/
@@ -905,7 +921,7 @@
   max-height: 412px;
   gap: 20px;
   border: 0px solid #e0e0e0;
-  padding: 6px 16px 8px 16px !important;
+  padding: 16px 16px 8px 16px !important;
   border-radius: 8px;
   background: #ffffff;
   transition: all 0.2s ease-in-out;
@@ -1062,6 +1078,7 @@
   line-height: 32px;
   color: #333333;
   padding-bottom: 48px;
+  text-align: center;
 }
 
 .fabric-stories__quote {
@@ -1072,6 +1089,7 @@
   color: #333333;
   max-width: 930px;
   padding-bottom: 48px;
+  text-align: center;
 }
 
 .fabric-stories__subheading {

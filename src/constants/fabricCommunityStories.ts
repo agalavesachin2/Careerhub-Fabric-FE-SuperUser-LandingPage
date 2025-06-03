@@ -13,11 +13,11 @@ export const FabricCommunityStories = {
     },
     {
       key: "step-2",
-      img: "/html/assets/superUser_lutzNew.png",
-      title: "Lutz Bendlin",
-      description: "Business Intelligence Analyst, HPE",
+      img: "/html/assets/superUser_Rajendraongole.jpg",
+      title: "Rajendra Ongole",
+      description: "BI Lead Engineer, Bosch",
       quote:
-        "“I am learning something new every day…Being a Super User is the best balance between receiving and giving - and it guarantees that you stay current in the ever-changing world of Fabric features.”",
+        "“Being part of the Super User Fabric Community has significantly expanded my professional network and provided me with expert insights that enhance my technical skills and problem-solving abilities. The shared knowledge and collaboration within the community have directly supported my organization’s Fabric practice, driving innovation and efficiency. What I value most is the opportunity to learn from and contribute to a group of passionate and skilled professionals. For anyone looking to grow their expertise and make a tangible impact, joining this community is a game-changer.”",
     },
     {
       key: "step-3",

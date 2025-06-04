@@ -6,7 +6,7 @@ export const FabricCommunityStories = {
     {
       key: "step-1",
       img: "/html/assets/superUser_banuGauthamStoryNew.png",
-      title: "Bhanu Guatam",
+      title: "Bhanu Gautam",
       description: "Business Intelligence Analyst, Gartner",
       quote:
         "“I love the collaborative spirit—sharing ideas, helping others, and learning from experienced members. It’s a positive and inspiring space that makes every interaction worthwhile.”",

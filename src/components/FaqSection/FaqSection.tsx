@@ -63,7 +63,12 @@ const FAQSection: React.FC<FAQSectionProps> = ({ FaqData }) => {
               </div>
 
               {openItems[index] && (
-                <p
+                // <p
+                //   className="faq-answer"
+                //   style={{ margin: '2px 44px 11px' }}
+                //   dangerouslySetInnerHTML={{ __html: faq.answer }}
+                // />
+                 <div
                   className="faq-answer"
                   style={{ margin: '2px 44px 11px' }}
                   dangerouslySetInnerHTML={{ __html: faq.answer }}

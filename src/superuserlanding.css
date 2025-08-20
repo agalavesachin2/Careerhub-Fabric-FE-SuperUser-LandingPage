@@ -1318,13 +1318,22 @@
       color: #292929;
     }
 
-    /* .faq-answer a {
-            color: #000 !important; 
-        } */
+    .faq-answer ul {
+       margin: 0;     
+       padding-left: 20px;
+       list-style-type: disc;
+      /* list-style-type: disc;
+      margin-left: 44px;
+      padding-left: 0; */
+      /* margin-left: 20px;
+      padding-left: 20px; */
+    }
 
-    /* .faq-answer a:hover {
-            color: #000 !important; 
-        } */
+    .faq-answer li {
+      margin-bottom: 8px;
+      line-height: 1.5;
+      list-style-position: outside;
+    }
 
     /* Chevron Icons */
     .faq-chevron {
